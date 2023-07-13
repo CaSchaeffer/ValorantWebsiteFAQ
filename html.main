@@ -3,99 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valorant Website</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Falls du eine separate CSS-Datei verwenden möchtest -->
-  <style>
-    /* Reset CSS */
-    *,
-    *::before,
-    *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-
-    header {
-      background-color: #000;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 30px;
-      color: #fff;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-    }
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-
-    nav ul li {
-      margin-right: 10px;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: color 0.3s ease;
-    }
-
-    nav ul li a:hover {
-      color: #999;
-    }
-
-    section {
-      padding: 40px;
-      margin-bottom: 20px;
-      background-color: #fff;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-    }
-
-    article {
-      margin-bottom: 20px;
-    }
-
-    p {
-      line-height: 1.5;
-    }
-
-    iframe {
-      display: block;
-      margin: 0 auto;
-    }
-
-    footer {
-      background-color: #000;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    p.footer-text {
-      font-size: 14px;
-      margin-top: 10px;
-    }
-  </style>
+  <title>VALORANT FAQ by CS</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -106,7 +15,6 @@
         <li><a href="#news">Neuigkeiten</a></li>
         <li><a href="#guides">Guides</a></li>
         <li><a href="#videos">Videos</a></li>
-        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
   </header>
@@ -122,9 +30,27 @@
   <section id="news">
     <h2>Neuigkeiten</h2>
     <article>
-      <h3>Patch 3.0 veröffentlicht</h3>
+      <h3>Patch 7.01 veröffentlicht</h3>
       <p>
-        Der neueste Patch für Valorant ist endlich da! Erfahre alles über die neuen Agenten, Waffen-Balance-Anpassungen und Verbesserungen am Spiel.
+        Der neueste Patch für Valorant ist endlich da! Erfahre alles über die neuen Agenten, Waffen-Balance-Anpassungen und Verbesserungen am Spiel.</p>
+      <h4>AGENTEN-ÄNDERUNGEN</h4>
+      <p>
+         Wir haben die Aktionssymbole der Fähigkeiten aktualisiert, damit sie für alle Agenten und Fähigkeiten, die ein gemeinsames Wirkmuster oder einen gemeinsamen Ausgang haben, einheitlicher sind. Außerdem haben wir dort, wo es nötig war, neue Symbole hinzugefügt. Diese Symbole erscheinen über eurer ausgerüsteten Fähigkeit.
+         Wir haben Sprachausgabe-Interaktionen zwischen Gekko und Deadlock hinzugefügt.</p>
+      <h4>WETTBEWERBS-UPDATES (Competative)</h4>
+      <p>
+         PREMIERE
+         Die Entzündungsphase ist live!
+
+         Wenn ihr in der offenen Beta von Premier gespielt habt, möchten wir euch zuallererst danken! Zweitens fängt jeder mit Ignition bei Null an, also müsst ihr auch dieses Mal ein neues Team bilden oder ihm beitreten. Euer Team und euer Spielverlauf werden jedoch von Ignition bis zum Start im August übernommen, also wählt euren Teamnamen sorgfältig aus. (Ihr könnt ihn später nicht mehr ändern!)
+         Die Registrierung läuft bis zum 20. Juli, also stellt euer Team zusammen und wählt vorher eine Zone. Der genaue Zeitpunkt für das Ende der Registrierung variiert von Zone zu Zone - sieh dir den Zeitplan im Client an, damit du ihn nicht verpasst.
+         Die Spiele beginnen am 20. Juli und laufen bis zum 12. August, mit den Playoffs am 13. August. Erreichen Sie bis dahin einen Premier Score von mindestens 375, um sich zu qualifizieren und eine Chance zu haben, zu einem der besten Teams in Ihrer Division zu werden. (Oh... und einen süßen Premier-Champion-Titel und einen Waffen-Kumpel gibt es auch.)
+         In unserer FAQ findest du alle wichtigen Details.
+      </p>
+      <h5>UPDATES ZUM SPIELERVERHALTEN</h5>
+      <p>
+         Wir haben Spielverbote für wiederholtes AFK, Friendly Fire und Queue Dodge im kompetitiven und unbewerteten Modus hinzugefügt.
+         Spieler, die in Echtzeit stummgeschaltet sind, werden nun auch für die gesamte Spielzeit stummgeschaltet.
       </p>
     </article>
     <article>
@@ -141,8 +67,7 @@
       <h3>Agenten-Guide: Deadlock</h3>
       <p>
         Deadlock ist einer der furchteinflößendsten Agenten in Valorant. Als Spezialistin für Sabotage und Kontrolle bringt sie eine einzigartige Mischung aus Fähigkeiten mit, die sie zu einer gefährlichen Gegnerin machen. Ihre Geschichte ist von Mysterium und Rebellion geprägt.
-      </p>
-      <p>
+
         Ursprünglich war Deadlock Teil einer kriminellen Organisation, bevor sie sich gegen ihre ehemaligen Verbündeten wandte und ihre Fähigkeiten für die gute Seite einsetzte. Mit ihrem treuen Granatwerfer namens "Grenade Launcher X" kann sie explosive Geschosse verschießen, die Gegner aufhalten und Gebiete sichern können.
         Deadlocks erste Fähigkeit ist "Fragmentation", bei der sie eine Splittergranate wirft, die explodiert und mehrere Splitter freisetzt, um ihre Gegner zu verlangsamen und ihnen erheblichen Schaden zuzufügen. Ihre zweite Fähigkeit, "Smoke Canister", ermöglicht es ihr, dichte Rauchwolken zu erzeugen und Sichtblockaden zu schaffen, um feindliche Sichtlinien zu stören und Teamkollegen zu schützen.
         Ihre ultimative Fähigkeit, "Lockdown", ist besonders gefährlich. Deadlock platziert ein mächtiges Gerät, das sich auflädt und dann eine große Schockwelle erzeugt, die alle Gegner in der Nähe für kurze Zeit betäubt und wehrlos macht. Dies ermöglicht es ihrem Team, einen Vorteil zu erlangen und den entscheidenden Schlag auszuführen.
@@ -163,25 +88,12 @@
     <iframe width="800" height="450" src="https://www.youtube.com/embed/mklxitVjoEs" frameborder="0" allowfullscreen></iframe>
   </section>
 
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Hast du Fragen oder Anregungen? Kontaktiere uns über das folgende Formular:</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br>
-      <label for="email">E-Mail:</label>
-      <input type="email" id="email" name="email" required><br>
-      <label for="message">Nachricht:</label>
-      <textarea id="message" name="message" required></textarea><br>
-      <input type="submit" value="Absenden">
-    </form>
-  </section>
-
   <footer>
     <p>&copy; 2023 Valorant Website. Alle Rechte vorbehalten.</p>
-    <p class="footer-text">Erstellt von <a href="https://github.com/CaSchaeffer">Carl Stegen</a></p>
+    <p class="footer-text">Erstellt von <a href="https://github.com/CaSchaeffer">Carl Constantin Alexander Stegen</a></p>
+    <p>How can I be Homophobic? My Bitch is gay</p>
   </footer>
 
-  <script src="script.js"></script> <!-- Falls du eine separate JavaScript-Datei verwenden möchtest -->
+  <script src="script.js"></script>
 </body>
 </html>
