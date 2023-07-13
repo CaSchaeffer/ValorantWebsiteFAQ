@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Website</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Falls du eine separate CSS-Datei verwenden möchtest -->
+  <style>
+    /* Reset CSS */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #999;
+    }
+
+    section {
+      padding: 40px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    article {
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    p.footer-text {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willkommen auf meiner Valorant-Website!</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Startseite</a></li>
+        <li><a href="#news">Neuigkeiten</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Willkommen bei Valorant</h2>
+    <p>
+      Valorant ist ein teambasiertes taktisches First-Person-Shooter-Spiel, das von Riot Games entwickelt wurde.
+      Tauche ein in eine Welt voller spannender Kämpfe, einzigartiger Agenten und strategischer Teamarbeit.
+    </p>
+  </section>
+
+  <section id="news">
+    <h2>Neuigkeiten</h2>
+    <article>
+      <h3>Patch 3.0 veröffentlicht</h3>
+      <p>
+        Der neueste Patch für Valorant ist endlich da! Erfahre alles über die neuen Agenten, Waffen-Balance-Anpassungen und Verbesserungen am Spiel.
+      </p>
+    </article>
+    <article>
+      <h3>Esport-Veranstaltung angekündigt</h3>
+      <p>
+        Die Valorant Masters Championship findet im kommenden Monat statt. Sei dabei, wenn die besten Teams aus der ganzen Welt um den Titel kämpfen. Noch sind hierfür Karten verfügbar. Kauf dir eine und sei dabei bei einem der größten Events der Gaming Industrie und Community!
+      </p>
+    </article>
+  </section>
+
+  <section id="guides">
+    <h2>Guides</h2>
+    <article>
+      <h3>Agenten-Guide: Deadlock</h3>
+      <p>
+        Deadlock ist einer der furchteinflößendsten Agenten in Valorant. Als Spezialistin für Sabotage und Kontrolle bringt sie eine einzigartige Mischung aus Fähigkeiten mit, die sie zu einer gefährlichen Gegnerin machen. Ihre Geschichte ist von Mysterium und Rebellion geprägt.
+      </p>
+      <p>
+        Ursprünglich war Deadlock Teil einer kriminellen Organisation, bevor sie sich gegen ihre ehemaligen Verbündeten wandte und ihre Fähigkeiten für die gute Seite einsetzte. Mit ihrem treuen Granatwerfer namens "Grenade Launcher X" kann sie explosive Geschosse verschießen, die Gegner aufhalten und Gebiete sichern können.
+        Deadlocks erste Fähigkeit ist "Fragmentation", bei der sie eine Splittergranate wirft, die explodiert und mehrere Splitter freisetzt, um ihre Gegner zu verlangsamen und ihnen erheblichen Schaden zuzufügen. Ihre zweite Fähigkeit, "Smoke Canister", ermöglicht es ihr, dichte Rauchwolken zu erzeugen und Sichtblockaden zu schaffen, um feindliche Sichtlinien zu stören und Teamkollegen zu schützen.
+        Ihre ultimative Fähigkeit, "Lockdown", ist besonders gefährlich. Deadlock platziert ein mächtiges Gerät, das sich auflädt und dann eine große Schockwelle erzeugt, die alle Gegner in der Nähe für kurze Zeit betäubt und wehrlos macht. Dies ermöglicht es ihrem Team, einen Vorteil zu erlangen und den entscheidenden Schlag auszuführen.
+        Mit ihren explosiven Fähigkeiten und ihrer rebellischen Haltung ist Deadlock ein Agent, den man auf dem Schlachtfeld nicht unterschätzen sollte. Ihre Fähigkeiten zur Sabotage und Kontrolle machen sie zu einer wertvollen Ergänzung für jedes Team und stellen sicher, dass der Feind sich zweimal überlegt, ob er es mit ihr aufnehmen will.
+        Wenn du mehr über Deadlock und ihre Fähigkeiten erfahren möchtest, kannst du weitere Informationen auf der offiziellen Valorant-Website finden: <a href="https://playvalorant.com/de-de/agents/deadlock/">Link zur Deadlock-Seite</a>
+      </p>
+    </article>
+    <article>
+      <h3>Waffen-Guide: Vandal</h3>
+      <p>
+        Die Vandal ist eine der beliebtesten Waffen in Valorant. In unserem Guide erfährst du alles über ihre Eigenschaften, Recoil-Muster und Tipps zur Verwendung. Außerdem listen wir die Vorteile auf, welche die Vandal mit sich bringt und Vergleichen diese mit der Phantom.
+      </p>
+    </article>
+  </section>
+
+  <section id="videos">
+    <h2>Videos</h2>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/mklxitVjoEs" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p>Hast du Fragen oder Anregungen? Kontaktiere uns über das folgende Formular:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea><br>
+      <input type="submit" value="Absenden">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Valorant Website. Alle Rechte vorbehalten.</p>
+    <p class="footer-text">Erstellt von <a href="https://github.com/CaSchaeffer">Carl Stegen</a></p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Falls du eine separate JavaScript-Datei verwenden möchtest -->
+</body>
+</html>
